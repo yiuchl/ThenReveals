@@ -1,0 +1,33 @@
+$nb : 10; /* number of columns */
+$nh : 7; /* number of rows */
+$ratio : calc($nb / $nh);
+
+g {
+  --s: 100vh; /* size of the puzzle 100vh makes you see the whole image in a smaller rectangle, 100vh makes the image huge*/
+  --i: url(ASSETS/IMAGES/cut-out/gingko-resized.jpg);
+  aspect-ratio: $ratio;
+  display: grid;
+  max-width: var(--s);
+  margin: auto;
+  margin-top: 2rem;
+  grid-template-columns: repeat($nb, 1fr);
+  grid-template-rows: repeat($nh, 1fr);
+  // border: 1px solid;
+}
+
+z {
+  display: grid;
+  // outline: 1px dashed;
+}
+
+b {
+  background: var(--i) 0/var(--s) var(--s);
+}
+
+@for $i from 1 to ($nb * $nh + 1 ) {
+  $x: (($i - 1 ) % ( $nb ));
+  $y: floor(calc( ($i - 1) / ($nb )));
+  z:nth-of-type(#{$i}) b{
+    background-position: calc($x / ($nb - 1)) * 100% calc($y / ($nb - 1)) * 100%;
+   }
+}

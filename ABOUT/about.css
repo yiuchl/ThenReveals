@@ -1,0 +1,51 @@
+/* grid */
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  /* grid-template-rows: repeat(5, 1fr); */
+  grid-column-gap: 25px;
+  grid-row-gap: 15px;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 3rem;
+}
+
+/* If four <grid-line> values are specified,
+  grid-row-start is set to the first value,
+  grid-column-start is set to the second value,
+  grid-row-end is set to the third value, and
+  grid-column-end is set to the fourth value. */
+.div1 {
+  grid-area: 1 / 1 / 4 / 2;
+}
+
+.div2 {
+  grid-area: 1 / 4 / 5 / 5;
+}
+
+.div3 {
+  grid-area: 1 / 5 / 5 / 6;
+}
+
+.highlight-only {
+  text-decoration: none;
+  background-image: linear-gradient(
+    to right,
+    rgba(254, 255, 162, 0.8) 0%,
+    rgba(254, 255, 162, 0.8) 50%,
+    rgb(0, 0, 0) 50%,
+    rgb(0, 0, 0) 100%
+  );
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 200% 0px;
+  transition: background-position 0.5s ease 0.3s, background-size 0.3s ease 0s;
+  padding: 2px 0px;
+}
+
+.highlight-only:hover {
+  background-position: 0% 100%;
+  background-size: 200% 22px;
+  transition: background-position 0.3s ease 0s, background-size 0.5s ease 0.3s;
+}

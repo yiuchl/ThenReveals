@@ -1,0 +1,532 @@
+/* Side page with information about the project */
+.line {
+  width: auto;
+  height: 2px;
+  background-color: rgb(8, 7, 8);
+  margin: 2rem;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(8, 7, 8);
+  overflow-x: hidden;
+  padding-top: 6rem;
+  transition: 0.8s;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.sidenav a:hover {
+  color: #ff9718;
+  transition: 0.3s ease;
+}
+
+.sidenav .close-btn {
+  position: absolute;
+  top: 0;
+  right: 6rem;
+}
+
+#arrow {
+  font-size: 9rem;
+  line-height: 0.9;
+  margin: 0;
+  padding: 0;
+  font-weight: 900;
+}
+
+#arrow:hover {
+  color: #ff9718;
+  transition: 0.3s ease;
+}
+
+#arrow-left {
+  font-size: 9rem;
+  padding: 0.8rem;
+  line-height: 1.125;
+  z-index: 10;
+  font-weight: 900;
+  padding-top: 1rem;
+}
+
+#arrow-left-2 {
+  font-size: 9rem;
+  line-height: 1;
+  z-index: 10;
+  margin: 0;
+  text-align: end;
+  align-self: flex-end;
+  padding-top: 0;
+  padding-left: 1.5rem;
+}
+
+.flip {
+  transform: scaleX(-1);
+}
+
+.flip2 {
+  transform: scaleX(-1);
+  position: relative;
+}
+
+#hamburger {
+  transition: margin-left 10s ease-in-out;
+  padding-left: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.site-description-wrapper {
+  position: relative;
+}
+
+.site-description {
+  margin: 0;
+  padding: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.side-head {
+  font-size: 2rem;
+  text-align: center;
+  align-content: space-between;
+}
+
+.subhead {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.designer {
+  display: block;
+  text-align: center;
+}
+
+.line-side {
+  width: auto;
+  height: 2px;
+  background-color: whitesmoke;
+  margin: 2rem;
+}
+
+.side-title {
+  justify-content: space-between;
+  font-size: 5rem;
+  padding: 2rem;
+  padding-top: 0.4rem;
+  padding-bottom: 2.5rem;
+}
+
+.what {
+  font-size: 2rem;
+}
+
+.specifics {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  line-height: 3;
+  margin: 2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 1rem;
+}
+
+.terms {
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.description {
+  text-align: right;
+}
+
+.colophon {
+  display: flex;
+  justify-content: space-between;
+  position: static;
+  margin: 0;
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  color: whitesmoke;
+}
+
+.colophon-1 {
+  text-align: center;
+  align-items: center;
+  padding: 2rem;
+  justify-content: space-between;
+}
+
+.colophon-2 {
+  text-align: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.colophon-3 {
+  text-align: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+/* Custom padding */
+.short {
+  padding-left: 7rem;
+  padding-right: 7rem;
+}
+
+.shorter {
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.shortest {
+  padding-left: 13.8rem;
+  padding-right: 13.8rem;
+}
+
+.space {
+  padding: 2rem;
+}
+
+#footer {
+  position: static;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding-top: 3rem;
+  color: #fcff6c;
+}
+
+/* Footer for the main page */
+.footer-main {
+  position: static;
+  bottom: 0;
+  width: 100%;
+  text-align: left;
+  margin: 0;
+  padding: 3rem;
+  padding-left: 1.5rem;
+  color: #f9fff6;
+}
+
+#footer-style {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Single color classes */
+.color {
+  color: #fcff6c;
+}
+
+.orange {
+  color: #ff9718;
+}
+
+/* Links */
+a {
+  cursor: pointer;
+}
+
+a:hover {
+  color: #ff9718;
+  transition: 0.3s ease;
+}
+
+a:link {
+  text-decoration: none;
+  border-bottom: 0.06em solid;
+}
+
+.small-specifics {
+  display: none;
+}
+
+.small-sheet-specifics {
+  display: none;
+}
+
+/* Modal */
+.modal {
+  display: none;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  position: relative;
+  padding: 2rem;
+  padding-top: 0;
+}
+
+/* Modal Content */
+.modal-content {
+  padding: 0rem;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.close,
+.close2 {
+  padding: 0;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.close:hover,
+.close:focus,
+.close2:hover,
+.close2:focus {
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+/* HTML Code for Side Navigation
+
+
+    <!-- Side Navigation Menu Bar -->
+    <!-- <div id="mySidenav" class="sidenav">
+      <a id="arrow-left" class="close-btn flip" onclick="closeNav()">➔</a>
+
+      <div class="site-description">
+        <div class="site-description-wrapper">
+          <div class="side-head">
+            <div class="side-title">
+              <h2 class="side-title">DSNY-GRAFFITI-TRACKING-MANHATTAN</h2>
+            </div>
+            <div class="subhead">
+              <div class="spacing-small">
+                <h3>
+                  <a
+                    style="border-bottom: 0"
+                    href="https://opendata.cityofnewyork.us/"
+                    >Open Data NYC</a
+                  >
+                </h3>
+                <h2>SOURCE</h2>
+              </div>
+              <div class="spacing-small">
+                <h3>
+                  <a
+                    style="border-bottom: 0"
+                    href="https://www.nyc.gov/assets/dsny/site/home"
+                    >Department of Sanitation (DSNY)</a
+                  >
+                </h3>
+                <h2>GOVERNMENT AGENCY</h2>
+              </div>
+              <div class="designer spacing-small">
+                <h3><a style="border-bottom: 0">Chloe Yiu</a></h3>
+                <h2>DESIGNER</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="sd-1">
+            <div class="line-side">&nbsp;</div>
+            <h2 class="what">HOW TO USE</h2>
+            <div class="line-side">&nbsp;</div>
+
+            <div class="space">
+              <h3 class="short color">
+                Click the coordinates to view report details provided by the
+                Department of Sanitation (DSNY).
+              </h3>
+            </div>
+          </div>
+
+          <div class="sd-2">
+            <div class="line-side">&nbsp;</div>
+            <h2 class="what">INFORMATION</h2>
+            <div class="line-side">&nbsp;</div>
+
+            <div class="space">
+              <h3 class="shortest">
+                The Graffiti-Free NYC Program removes illicit markings across
+                the five boroughs.
+              </h3>
+              <h3 class="shortest">
+                <br />Graffiti-Free NYC is a cooperative effort among the NYC
+                Economic Development Corporation, the DSNY, and the Office of
+                the Mayor. For more information, see
+                <a href="https://edc.nyc/program/graffiti-free-nyc">here</a>.
+              </h3>
+              <h3 class="shortest">
+                <br />DSNY-GRAFFITI-TRACKING-MANHATTAN displays coordinates of
+                graffiti incidences in Manhattan from January 1, 2022, to
+                January 5, 2022, and their corresponding resolutions.
+              </h3>
+              <h3>
+                <br />To view the complete DSNY Graffiti Tracking dataset, see
+                <a
+                  href="https://data.cityofnewyork.us/City-Government/DSNY-Graffiti-Tracking/gpwd-npar"
+                  >here</a
+                >.
+              </h3>
+            </div>
+          </div>
+
+          <div class="sd-3">
+            <div class="line-side">&nbsp;</div>
+            <h2 class="what">DATASET DEFINITIONS</h2>
+            <div class="line-side">&nbsp;</div>
+
+            <div class="specifics">
+              <div class="terms">
+                <h2>Community Board</h2>
+                <h2>Police Precinct</h2>
+                <h2>City Council District</h2>
+                <h2>Created Date</h2>
+                <h2>Status</h2>
+                <h2>Resolution Action</h2>
+                <h2>Closed Date</h2>
+              </div>
+              <div class="description">
+                <h3>One of the 59 Community Boards of NYC</h3>
+                <h3>One of the 77 Police Precincts in NYC</h3>
+                <h3>One of the 51 Council Districts that govern NYC</h3>
+                <h3>Date graffiti was reported</h3>
+                <h3>Status of reported graffiti complaint</h3>
+                <h3>
+                  Description of actions taken to resolve graffiti complaint
+                </h3>
+                <h3>Date issue was closed</h3>
+              </div>
+            </div>
+
+            <div class="small-specifics">
+              <div>
+                <div class="small-term">
+                  <h2>Community Board</h2>
+                  <h3>One of the 59 Community Boards of NYC</h3>
+                </div>
+
+                <div class="small-term">
+                  <h2>Police Precinct</h2>
+                  <h3>One of the 77 Police Precincts in NYC</h3>
+                </div>
+
+                <div class="small-term">
+                  <h2>City Council District</h2>
+                  <h3>One of the 51 Council Districts that govern NYC</h3>
+                </div>
+
+                <div class="small-term">
+                  <h2>Created Date</h2>
+                  <h3>Date graffiti was reported</h3>
+                </div>
+
+                <div class="small-term">
+                  <h2>Status</h2>
+                  <h3>Status of reported graffiti complaint</h3>
+                </div>
+
+                <div class="small-term">
+                  <h2>Resolution Action</h2>
+                  <h3>
+                    Description of actions taken to resolve graffiti complaint
+                  </h3>
+                </div>
+
+                <div class="small-term">
+                  <h2>Closed Date</h2>
+                  <h3>Date issue was closed</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sd-4">
+            <div class="line-side">&nbsp;</div>
+            <h2 class="what">COLOPHON</h2>
+            <div class="line-side">&nbsp;</div>
+
+            <div class="colophon">
+              <div class="colophon-3">
+                <h3>
+                  Chloe listened to
+                  <a
+                    href="https://open.spotify.com/playlist/2aoQOfSZVCEb35E1x9gRLo?si=a1ef7cb8f21f406d"
+                    >this playlist</a
+                  >
+                  while developing the site.
+                </h3>
+                <iframe
+                  style="border-radius: 1rem; padding-top: 1rem; margin: 0"
+                  src="https://open.spotify.com/embed/playlist/2aoQOfSZVCEb35E1x9gRLo?utm_source=generator"
+                  width="100%"
+                  height="100"
+                  frameborder=""
+                  allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                >
+                </iframe>
+              </div>
+
+              <h3 class="colophon-1">
+                Colors <button id="myBtn" class="color">#FCFF6C</button> and
+                <button id="myBtn2" class="orange">#FF9718</button> derive from
+                the New York City Economic Development Corporation and
+                Graffiti-Free NYC.
+              </h3>
+
+              <div id="myModal" class="modal">
+                <div class="modal-content">
+                  <div class="close">&times;</div>
+                  <img
+                    src="./ASSETS/IMAGES/nyc-edc.png"
+                    alt="♡ have a nice day ♡"
+                  />
+                </div>
+              </div>
+
+              <div id="myModal2" class="modal">
+                <div class="modal-content">
+                  <div class="close2">&times;</div>
+                  <img
+                    src="./ASSETS/IMAGES/graffiti-free-nyc-truck.jpg"
+                    alt="♡ have a nice day ♡"
+                  />
+                </div>
+              </div>
+
+              <h3 class="colophon-2">
+                Typeface is
+                <a href="https://wisetype.nl/collections/wt-saltburn"
+                  >Saltburn</a
+                >
+                by WiseType®
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div>
+          <footer>
+            <h3 id="footer">
+              FIND THIS SITE TOTALLY AWESOME AND COOL? SEND CHLOE A LATTE.
+            </h3>
+          </footer>
+        </div>
+      </div>
+    </div>
+
+    <div id="hamburger">
+      <span id="arrow" style="cursor: pointer" onclick="openNav()">➔</span>
+    </div> -->
+
+*/

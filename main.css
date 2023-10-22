@@ -1,0 +1,301 @@
+/* number of columns */
+/* number of rows */
+g {
+  --s: 100vh; /* size of the puzzle 100vh makes you see the whole image in a smaller rectangle, 100vh makes the image huge*/
+  --i: url(ASSETS/IMAGES/cut-out/gingko-resized.jpg);
+  aspect-ratio: 1.4285714286;
+  display: grid;
+  max-width: var(--s);
+  margin: auto;
+  margin-top: 2rem;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+}
+
+z {
+  display: grid;
+}
+
+b {
+  background: var(--i) 0/var(--s) var(--s);
+}
+
+z:nth-of-type(1) b {
+  background-position: 0% 0%;
+}
+
+z:nth-of-type(2) b {
+  background-position: 11.1111111111% 0%;
+}
+
+z:nth-of-type(3) b {
+  background-position: 22.2222222222% 0%;
+}
+
+z:nth-of-type(4) b {
+  background-position: 33.3333333333% 0%;
+}
+
+z:nth-of-type(5) b {
+  background-position: 44.4444444444% 0%;
+}
+
+z:nth-of-type(6) b {
+  background-position: 55.5555555556% 0%;
+}
+
+z:nth-of-type(7) b {
+  background-position: 66.6666666667% 0%;
+}
+
+z:nth-of-type(8) b {
+  background-position: 77.7777777778% 0%;
+}
+
+z:nth-of-type(9) b {
+  background-position: 88.8888888889% 0%;
+}
+
+z:nth-of-type(10) b {
+  background-position: 100% 0%;
+}
+
+z:nth-of-type(11) b {
+  background-position: 0% 11.1111111111%;
+}
+
+z:nth-of-type(12) b {
+  background-position: 11.1111111111% 11.1111111111%;
+}
+
+z:nth-of-type(13) b {
+  background-position: 22.2222222222% 11.1111111111%;
+}
+
+z:nth-of-type(14) b {
+  background-position: 33.3333333333% 11.1111111111%;
+}
+
+z:nth-of-type(15) b {
+  background-position: 44.4444444444% 11.1111111111%;
+}
+
+z:nth-of-type(16) b {
+  background-position: 55.5555555556% 11.1111111111%;
+}
+
+z:nth-of-type(17) b {
+  background-position: 66.6666666667% 11.1111111111%;
+}
+
+z:nth-of-type(18) b {
+  background-position: 77.7777777778% 11.1111111111%;
+}
+
+z:nth-of-type(19) b {
+  background-position: 88.8888888889% 11.1111111111%;
+}
+
+z:nth-of-type(20) b {
+  background-position: 100% 11.1111111111%;
+}
+
+z:nth-of-type(21) b {
+  background-position: 0% 22.2222222222%;
+}
+
+z:nth-of-type(22) b {
+  background-position: 11.1111111111% 22.2222222222%;
+}
+
+z:nth-of-type(23) b {
+  background-position: 22.2222222222% 22.2222222222%;
+}
+
+z:nth-of-type(24) b {
+  background-position: 33.3333333333% 22.2222222222%;
+}
+
+z:nth-of-type(25) b {
+  background-position: 44.4444444444% 22.2222222222%;
+}
+
+z:nth-of-type(26) b {
+  background-position: 55.5555555556% 22.2222222222%;
+}
+
+z:nth-of-type(27) b {
+  background-position: 66.6666666667% 22.2222222222%;
+}
+
+z:nth-of-type(28) b {
+  background-position: 77.7777777778% 22.2222222222%;
+}
+
+z:nth-of-type(29) b {
+  background-position: 88.8888888889% 22.2222222222%;
+}
+
+z:nth-of-type(30) b {
+  background-position: 100% 22.2222222222%;
+}
+
+z:nth-of-type(31) b {
+  background-position: 0% 33.3333333333%;
+}
+
+z:nth-of-type(32) b {
+  background-position: 11.1111111111% 33.3333333333%;
+}
+
+z:nth-of-type(33) b {
+  background-position: 22.2222222222% 33.3333333333%;
+}
+
+z:nth-of-type(34) b {
+  background-position: 33.3333333333% 33.3333333333%;
+}
+
+z:nth-of-type(35) b {
+  background-position: 44.4444444444% 33.3333333333%;
+}
+
+z:nth-of-type(36) b {
+  background-position: 55.5555555556% 33.3333333333%;
+}
+
+z:nth-of-type(37) b {
+  background-position: 66.6666666667% 33.3333333333%;
+}
+
+z:nth-of-type(38) b {
+  background-position: 77.7777777778% 33.3333333333%;
+}
+
+z:nth-of-type(39) b {
+  background-position: 88.8888888889% 33.3333333333%;
+}
+
+z:nth-of-type(40) b {
+  background-position: 100% 33.3333333333%;
+}
+
+z:nth-of-type(41) b {
+  background-position: 0% 44.4444444444%;
+}
+
+z:nth-of-type(42) b {
+  background-position: 11.1111111111% 44.4444444444%;
+}
+
+z:nth-of-type(43) b {
+  background-position: 22.2222222222% 44.4444444444%;
+}
+
+z:nth-of-type(44) b {
+  background-position: 33.3333333333% 44.4444444444%;
+}
+
+z:nth-of-type(45) b {
+  background-position: 44.4444444444% 44.4444444444%;
+}
+
+z:nth-of-type(46) b {
+  background-position: 55.5555555556% 44.4444444444%;
+}
+
+z:nth-of-type(47) b {
+  background-position: 66.6666666667% 44.4444444444%;
+}
+
+z:nth-of-type(48) b {
+  background-position: 77.7777777778% 44.4444444444%;
+}
+
+z:nth-of-type(49) b {
+  background-position: 88.8888888889% 44.4444444444%;
+}
+
+z:nth-of-type(50) b {
+  background-position: 100% 44.4444444444%;
+}
+
+z:nth-of-type(51) b {
+  background-position: 0% 55.5555555556%;
+}
+
+z:nth-of-type(52) b {
+  background-position: 11.1111111111% 55.5555555556%;
+}
+
+z:nth-of-type(53) b {
+  background-position: 22.2222222222% 55.5555555556%;
+}
+
+z:nth-of-type(54) b {
+  background-position: 33.3333333333% 55.5555555556%;
+}
+
+z:nth-of-type(55) b {
+  background-position: 44.4444444444% 55.5555555556%;
+}
+
+z:nth-of-type(56) b {
+  background-position: 55.5555555556% 55.5555555556%;
+}
+
+z:nth-of-type(57) b {
+  background-position: 66.6666666667% 55.5555555556%;
+}
+
+z:nth-of-type(58) b {
+  background-position: 77.7777777778% 55.5555555556%;
+}
+
+z:nth-of-type(59) b {
+  background-position: 88.8888888889% 55.5555555556%;
+}
+
+z:nth-of-type(60) b {
+  background-position: 100% 55.5555555556%;
+}
+
+z:nth-of-type(61) b {
+  background-position: 0% 66.6666666667%;
+}
+
+z:nth-of-type(62) b {
+  background-position: 11.1111111111% 66.6666666667%;
+}
+
+z:nth-of-type(63) b {
+  background-position: 22.2222222222% 66.6666666667%;
+}
+
+z:nth-of-type(64) b {
+  background-position: 33.3333333333% 66.6666666667%;
+}
+
+z:nth-of-type(65) b {
+  background-position: 44.4444444444% 66.6666666667%;
+}
+
+z:nth-of-type(66) b {
+  background-position: 55.5555555556% 66.6666666667%;
+}
+
+z:nth-of-type(67) b {
+  background-position: 66.6666666667% 66.6666666667%;
+}
+
+z:nth-of-type(68) b {
+  background-position: 77.7777777778% 66.6666666667%;
+}
+
+z:nth-of-type(69) b {
+  background-position: 88.8888888889% 66.6666666667%;
+}
+
+z:nth-of-type(70) b {
+  background-position: 100% 66.6666666667%;
+}/*# sourceMappingURL=main.css.map */
