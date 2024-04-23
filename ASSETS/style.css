@@ -1,363 +1,363 @@
 html {
-  box-sizing: content-box;
+	box-sizing: content-box;
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  background-color: whitesmoke;
+	width: 100vw;
+	height: 100vh;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+	background-color: whitesmoke;
 }
 
 h1 {
-  font-size: 2rem;
+	font-size: 2rem;
 }
 
 em {
-  font-style: italic;
+	font-style: italic;
 }
 
 b {
-  font-weight: 800;
+	font-weight: 800;
 }
 
 button {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 /* Griddy */
 g {
-  position: static;
-  z-index: 0;
-  padding: 2rem;
+	position: static;
+	z-index: 0;
+	padding: 2rem;
 }
 
 .highlight-link {
-  text-decoration: none;
-  background-image: linear-gradient(
-    to right,
-    rgba(254, 255, 162, 0.8) 0%,
-    rgba(254, 255, 162, 0.8) 50%,
-    rgb(0, 0, 0) 50%,
-    rgb(0, 0, 0) 100%
-  );
-  background-position: 100% 100%;
-  background-repeat: no-repeat;
-  background-size: 200% 1px;
-  transition: background-position 0.5s ease 0.3s, background-size 0.3s ease 0s;
-  padding: 2px 0px;
+	text-decoration: none;
+	background-image: linear-gradient(
+		to right,
+		rgba(254, 255, 162, 0.8) 0%,
+		rgba(254, 255, 162, 0.8) 50%,
+		rgb(0, 0, 0) 50%,
+		rgb(0, 0, 0) 100%
+	);
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+	background-size: 200% 1px;
+	transition: background-position 0.5s ease 0.3s, background-size 0.3s ease 0s;
+	padding: 2px 0px;
 }
 
 .highlight-link:hover {
-  background-position: 0% 100%;
-  background-size: 200% 22px;
-  transition: background-position 0.3s ease 0s, background-size 0.5s ease 0.3s;
+	background-position: 0% 100%;
+	background-size: 200% 22px;
+	transition: background-position 0.3s ease 0s, background-size 0.5s ease 0.3s;
 }
 
 /* Basic */
 ::selection {
-  color: orangered;
-  background: transparent;
+	color: orangered;
+	background: transparent;
 }
 
 .wrapper {
-  margin: 0;
-  padding: 1rem;
-  position: relative;
-  height: 100vh;
+	margin: 0;
+	padding: 1rem;
+	position: relative;
+	height: 100vh;
 }
 
 /* Top Navigation Menu Bar */
 .topnav {
-  overflow: hidden;
-  /* background-color: whitesmoke; */
-  display: flex;
-  justify-content: space-evenly;
-  padding-bottom: 1rem;
+	overflow: hidden;
+	/* background-color: whitesmoke; */
+	display: flex;
+	justify-content: space-evenly;
+	padding-bottom: 1rem;
 }
 
 .topnav a {
-  float: left;
-  display: flex;
-  text-align: center;
-  justify-content: space-between;
-  text-decoration: none;
-  font-size: 1rem;
-  color: #2d3033;
-  align-items: center;
-  flex-wrap: nowrap;
-  flex-direction: row;
+	float: left;
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
+	text-decoration: none;
+	font-size: 1rem;
+	color: #2d3033;
+	align-items: center;
+	flex-wrap: nowrap;
+	flex-direction: row;
 }
 
 .topnav a.active {
-  /* background-color: orangered; */
-  color: whitesmoke;
-  color: #2d3033;
+	/* background-color: orangered; */
+	color: whitesmoke;
+	color: #2d3033;
 }
 
 .topnav a:hover {
-  /* background-color: orangered; */
-  color: whitesmoke;
-  color: #2d3033;
+	/* background-color: orangered; */
+	color: whitesmoke;
+	color: #2d3033;
 }
 
 .topnav .icon {
-  display: none;
+	display: none;
 }
 
 /* Footer for the main page fruitbythefoot */
 #footer-main {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  margin: 0;
-  padding: 1rem;
-  color: #2d3033;
-  z-index: 0;
-  font-size: 0.5rem;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 1rem;
+	color: #2d3033;
+	z-index: 0;
+	font-size: 0.5rem;
 }
 
 #thx {
-  background: linear-gradient(
-    130deg,
-    mediumblue,
-    green,
-    greenyellow,
-    gold,
-    orange,
-    orangered,
-    red,
-    purple,
-    indigo,
-    mediumslateblue,
-    mediumspringgreen
-  );
-  color: #2d3033;
-  background-clip: text;
-  -webkit-background-clip: text;
-  cursor: pointer;
+	background: linear-gradient(
+		130deg,
+		mediumblue,
+		green,
+		greenyellow,
+		gold,
+		orange,
+		orangered,
+		red,
+		purple,
+		indigo,
+		mediumslateblue,
+		mediumspringgreen
+	);
+	color: #2d3033;
+	background-clip: text;
+	-webkit-background-clip: text;
+	cursor: pointer;
 }
 
 #thx:hover {
-  color: transparent;
-  transition: 500ms ease-in-out;
+	color: transparent;
+	transition: 500ms ease-in-out;
 }
 
 /* Splash Screen (click to enter)*/
 .splash {
-  margin: 0;
-  padding: 2rem;
-  z-index: 10;
-  cursor: pointer;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  width: 100vw;
-  height: 100vh;
-  transform: translate(-50%, -50%);
-  background-image: url(./IMAGES/six-gingko-leaves.png);
-  transition: 3s cubic-bezier(0.23, 1, 0.32, 1);
-  background-color: whitesmoke;
-  /* background-color: #0f0f0f; */
+	margin: 0;
+	padding: 2rem;
+	z-index: 10;
+	cursor: pointer;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 100vw;
+	height: 100vh;
+	transform: translate(-50%, -50%);
+	background-image: url(./IMAGES/six-gingko-leaves.png);
+	transition: 3s cubic-bezier(0.23, 1, 0.32, 1);
+	background-color: whitesmoke;
+	/* background-color: #0f0f0f; */
 }
 
 .hidden {
-  transition: 0.8s;
-  display: none;
+	transition: 0.8s;
+	display: none;
 }
 
 .splash-header {
-  height: 80%;
-  font-size: 3rem;
-  /* color: plum; */
-  color: #2d3033;
-  /* color: #ff006c; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 5.5rem;
+	height: 80%;
+	font-size: 3rem;
+	/* color: plum; */
+	color: #2d3033;
+	/* color: #ff006c; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5.5rem;
 }
 
 /* Splash Screen Hover Effects */
 #splash-background {
-  transition-delay: 30ms ease;
-  filter: blur(1rem);
+	transition-delay: 30ms ease;
+	filter: blur(1rem);
 }
 #splash-background:hover {
-  transition-delay: 30ms ease;
-  z-index: 1;
-  filter: blur(0rem);
+	transition-delay: 30ms ease;
+	z-index: 1;
+	filter: blur(0rem);
 }
 
 /* First Round of Gingko Moves*/
 .gingko {
-  justify-content: center;
-  background-color: transparent;
-  /* object-fit: contain; */
+	justify-content: center;
+	background-color: transparent;
+	/* object-fit: contain; */
 }
 
 .gingko-bg {
-  /* background-color: #0f0f0f; */
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  z-index: -1;
-  margin: 0;
-  padding: 1%;
-  object-fit: contain;
+	/* background-color: #0f0f0f; */
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	z-index: -1;
+	margin: 0;
+	padding: 1%;
+	object-fit: contain;
 }
 
 /* BOX 1 */
 .gingko-box-01 {
-  position: absolute;
-  cursor: move;
-  z-index: 0;
-  top: 13.2%;
-  left: 10.5%;
+	position: absolute;
+	cursor: move;
+	z-index: 0;
+	top: 13.2%;
+	left: 10.5%;
 
-  height: auto;
-  width: 10vw;
-  object-fit: scale-down;
+	height: auto;
+	width: 10vw;
+	object-fit: scale-down;
 }
 
 .gingko-box-01:hover {
-  box-shadow: 5px 5px 10px #0f0f0f;
-  animation: shake 1s;
-  animation-iteration-count: infinite;
+	box-shadow: 5px 5px 10px #0f0f0f;
+	animation: shake 1s;
+	animation-iteration-count: infinite;
 }
 
 /* BOX 2 */
 .gingko-box-02 {
-  position: absolute;
-  cursor: move;
-  z-index: 0;
-  top: 70%;
-  left: 15%;
+	position: absolute;
+	cursor: move;
+	z-index: 0;
+	top: 70%;
+	left: 15%;
 
-  height: auto;
-  width: 10vw;
-  object-fit: scale-down;
+	height: auto;
+	width: 10vw;
+	object-fit: scale-down;
 }
 
 .gingko-box-02:hover {
-  box-shadow: 5px 5px 10px #0f0f0f;
-  animation: shake 1s;
-  animation-iteration-count: infinite;
+	box-shadow: 5px 5px 10px #0f0f0f;
+	animation: shake 1s;
+	animation-iteration-count: infinite;
 }
 
 /* BOX 3 */
 .gingko-box-03 {
-  position: absolute;
-  cursor: move;
-  z-index: 0;
-  top: 70%;
-  left: 26.5%;
+	position: absolute;
+	cursor: move;
+	z-index: 0;
+	top: 70%;
+	left: 26.5%;
 
-  height: auto;
-  width: 10vw;
-  object-fit: scale-down;
+	height: auto;
+	width: 10vw;
+	object-fit: scale-down;
 }
 
 .gingko-box-03:hover {
-  box-shadow: 5px 5px 10px #0f0f0f;
-  animation: shake 1s;
-  animation-iteration-count: infinite;
+	box-shadow: 5px 5px 10px #0f0f0f;
+	animation: shake 1s;
+	animation-iteration-count: infinite;
 }
 
 /* BOX 4 */
 .gingko-box-04 {
-  position: absolute;
-  cursor: move;
-  z-index: 0;
-  top: 20%;
-  left: 25%;
+	position: absolute;
+	cursor: move;
+	z-index: 0;
+	top: 20%;
+	left: 25%;
 
-  height: auto;
-  width: 10vw;
-  object-fit: scale-down;
+	height: auto;
+	width: 10vw;
+	object-fit: scale-down;
 }
 
 .gingko-box-04:hover {
-  box-shadow: 5px 5px 10px #0f0f0f;
-  animation: shake 1s;
-  animation-iteration-count: infinite;
+	box-shadow: 5px 5px 10px #0f0f0f;
+	animation: shake 1s;
+	animation-iteration-count: infinite;
 }
 
 /* BOX 5 */
 .gingko-box-05 {
-  position: absolute;
-  cursor: move;
-  z-index: 0;
-  top: 30%;
-  left: 55%;
+	position: absolute;
+	cursor: move;
+	z-index: 0;
+	top: 30%;
+	left: 55%;
 
-  height: auto;
-  width: 10vw;
-  object-fit: scale-down;
+	height: auto;
+	width: 10vw;
+	object-fit: scale-down;
 }
 
 .gingko-box-05:hover {
-  box-shadow: 5px 5px 10px #0f0f0f;
-  animation: shake 1s;
-  animation-iteration-count: infinite;
+	box-shadow: 5px 5px 10px #0f0f0f;
+	animation: shake 1s;
+	animation-iteration-count: infinite;
 }
 
 /* BOX 6 */
 .gingko-box-06 {
-  position: absolute;
-  cursor: move;
-  z-index: 0;
-  top: 10%;
-  left: 80%;
+	position: absolute;
+	cursor: move;
+	z-index: 0;
+	top: 10%;
+	left: 80%;
 
-  height: auto;
-  width: 10vw;
-  object-fit: scale-down;
+	height: auto;
+	width: 10vw;
+	object-fit: scale-down;
 }
 
 .gingko-box-06:hover {
-  box-shadow: 5px 5px 10px #0f0f0f;
-  animation: shake 1s;
-  animation-iteration-count: infinite;
+	box-shadow: 5px 5px 10px #0f0f0f;
+	animation: shake 1s;
+	animation-iteration-count: infinite;
 }
 
 /* Image Shake Keyframes */
 @keyframes shake {
-  0% {
-    transform: translate(1px, 1px) rotate(0deg);
-  }
-  10% {
-    transform: translate(-1px, -2px) rotate(-1deg);
-  }
-  20% {
-    transform: translate(-3px, 0px) rotate(1deg);
-  }
-  30% {
-    transform: translate(3px, 2px) rotate(0deg);
-  }
-  40% {
-    transform: translate(1px, -1px) rotate(1deg);
-  }
-  50% {
-    transform: translate(-1px, 2px) rotate(-1deg);
-  }
-  60% {
-    transform: translate(-3px, 1px) rotate(0deg);
-  }
-  70% {
-    transform: translate(3px, 1px) rotate(-1deg);
-  }
-  80% {
-    transform: translate(-1px, -1px) rotate(1deg);
-  }
-  90% {
-    transform: translate(1px, 2px) rotate(0deg);
-  }
-  100% {
-    transform: translate(1px, -2px) rotate(-1deg);
-  }
+	0% {
+		transform: translate(1px, 1px) rotate(0deg);
+	}
+	10% {
+		transform: translate(-1px, -2px) rotate(-1deg);
+	}
+	20% {
+		transform: translate(-3px, 0px) rotate(1deg);
+	}
+	30% {
+		transform: translate(3px, 2px) rotate(0deg);
+	}
+	40% {
+		transform: translate(1px, -1px) rotate(1deg);
+	}
+	50% {
+		transform: translate(-1px, 2px) rotate(-1deg);
+	}
+	60% {
+		transform: translate(-3px, 1px) rotate(0deg);
+	}
+	70% {
+		transform: translate(3px, 1px) rotate(-1deg);
+	}
+	80% {
+		transform: translate(-1px, -1px) rotate(1deg);
+	}
+	90% {
+		transform: translate(1px, 2px) rotate(0deg);
+	}
+	100% {
+		transform: translate(1px, -2px) rotate(-1deg);
+	}
 }
 
 /* Modal */
@@ -406,18 +406,18 @@ g {
 
 /* Flip */
 .flip-text {
-  display: none;
+	display: none;
 }
 .flip:hover .flip-text {
-  display: inline;
+	display: inline;
 }
 .flip:hover .pre-flip {
-  display: none;
+	display: none;
 }
 
 .flip-blur {
-  filter: blur(1rem);
-  background-color: whitesmoke;
+	filter: blur(1rem);
+	background-color: whitesmoke;
 }
 
 /* @media screen and (max-width: 600px) {
@@ -445,3 +445,23 @@ g {
     text-align: left;
   }
 } */
+
+.disclaimer {
+	display: none;
+}
+
+@media only screen and (max-width: 600px) {
+	.parent {
+		display: none;
+	}
+
+	.disclaimer {
+		display: contents;
+		color: #2d3033;
+		text-align: center;
+	}
+
+	#myTopnav {
+		display: none;
+	}
+}

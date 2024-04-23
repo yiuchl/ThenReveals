@@ -43,3 +43,19 @@
 	opacity: 25%;
 	/* position: absolute; */
 }
+
+@media only screen and (max-width: 600px) {
+	body {
+		background-color: black;
+	}
+
+	.parent {
+		display: none;
+	}
+
+	.disclaimer {
+		display: contents;
+		color: whitesmoke;
+		text-align: center;
+	}
+}
